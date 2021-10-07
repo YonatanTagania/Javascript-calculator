@@ -15,7 +15,7 @@ function operators(operator) {
     input = Number(numbersDisplay.innerText);
     switch (operator) {
         case "+":
-            current.innerText=input
+            current.innerText=`${input}+`
             numbersDisplay.innerText = " "
             calculate.onclick = () => {
                 current.innerText=" "
@@ -26,7 +26,7 @@ function operators(operator) {
             }
             break
         case "-":
-            current.innerText=input
+            current.innerText=`${input}-`
             numbersDisplay.innerText = " "
             calculate.onclick = () => {
                 input2 = Number(numbersDisplay.innerText)
@@ -36,7 +36,7 @@ function operators(operator) {
             }
             break
         case "*":
-            current.innerText=input
+            current.innerText=`${input}*`
             numbersDisplay.innerText = " "
             calculate.onclick = () => {
                 input2 = Number(numbersDisplay.innerText)
@@ -47,7 +47,7 @@ function operators(operator) {
             }
             break
         case "/":
-            current.innerText=input
+            current.innerText=`${input}/`
             numbersDisplay.innerText = " "
             current
             calculate.onclick = () => {
@@ -59,6 +59,7 @@ function operators(operator) {
             break
         default:
             numbersDisplay.innerText = " "
+            current.innerText=" "
             input = 0;
             input2 = 0;
             sum = 0;
