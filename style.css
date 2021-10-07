@@ -1,0 +1,55 @@
+.nums,
+#calculate {
+  width: 16vh;
+  height: 8vh;
+  border: red solid 1px;
+  font-size: larger;
+  position: relative;
+  top: 5vh;
+}
+#plus,
+#minus,
+#multiply {
+  width: 16.2vh;
+  border: red solid 1px;
+  font-size: larger;
+  position: relative;
+  top: 2vh;
+}
+#divide,
+#AC {
+  position: relative;
+  width: 24.5vh;
+  border: red solid 1px;
+  font-size: larger;
+  top: 3vh;
+}
+#numsSection {
+  border: solid black 2px;
+  width: 50vh;
+  height: 52vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: relative;
+}
+
+#numbersDiv {
+  width: 49vh;
+  height: 7vh;
+  border: solid black 2px;
+  background-color: white;
+  }
+  #current{
+    background-color: white;
+    color: red;
+    width: 40vh;
+    height: 1vh;
+    font-weight: bolder;
+    position: relative;
+  }
+#clickMeTop {
+  background-color: blue;
+  color: white;
+  text-align: center;
+}
+
+#numbersDisplay{font-weight: bolder;}
